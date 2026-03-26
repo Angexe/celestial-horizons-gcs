@@ -108,8 +108,8 @@ function speakText(keyOrText, isTranslationKey = false) {
 // ==========================================
 // 2. INITIALISATION DE LA CARTE GPS (Leaflet)
 // ==========================================
-const launchLat = 49.119445;
-const launchLon = 6.161268;
+const launchLat = 49.110320; // NOUVELLE LATITUDE
+const launchLon = 6.072202;  // NOUVELLE LONGITUDE
 
 let map = L.map('map').setView([launchLat, launchLon], 16); 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
@@ -424,9 +424,11 @@ function blinkSignal() {
 // ==========================================
 function startSimulator() {
     let simTemp = 25.0; let simPress = 1013.2; let simAlt = 0.0;
-    let simHum = 50.0; // NOUVEAU
-    let simAccel = 1.0; let simLat = 49.119445; let simLon = 6.161268;
-    let simTime = 0; 
+    let simHum = 50.0; 
+    let simAccel = 1.0; 
+    let simLat = 49.110320; // NOUVELLE LATITUDE ICI AUSSI
+    let simLon = 6.072202;  // NOUVELLE LONGITUDE ICI AUSSI
+    let simTime = 0;
 
     console.log("🚀 Lancement du simulateur de vol !");
     logTerminal("🛠️ MODE SIMULATEUR ACTIVÉ.");
@@ -470,4 +472,4 @@ function startSimulator() {
 }
 
 // 👉 LE SIMULATEUR EST BIEN DÉSACTIVÉ POUR LE JOUR J :
-// startSimulator();
+//startSimulator();
