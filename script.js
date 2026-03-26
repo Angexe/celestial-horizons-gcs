@@ -417,4 +417,4 @@ function startSimulator() {
 }
 
 // 👉 DÉCOMMENTE POUR ACTIVER LE SIMULATEUR
-//startSimulator();
+startSimulator();
