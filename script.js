@@ -21,7 +21,7 @@ const translations = {
         timeFeb: "February 2026", timeFebDesc: "Virtual Phase - Software architecture and simulation.", timeMar: "March 2026", timeMarDesc: "Physical Phase at School - Manufacturing and I2C tests.", timeLaunch: "Friday Launch!", timeLaunchDesc: "Maiden flight of the \"Erasmus Star\" rocket."
     },
     es: { 
-        subtitle: "Mission Control Center", connect: "Conectar USB", disconnect: "Desconectar", mapTitle: "Seguimiento de Vuelo GPS", altTitle: "Altitud (m)", accelTitle: "Aceleración (G)", tempTitle: "Temperatura (°C)", pressTitle: "Presión (hPa)", terminalTitle: "Datos Crudos (Serial Log)", csvDownload: "Descargar CSV",
+        subtitle: "Mission Control Center", connect: "Conectar USB", disconnect: "Desconectar", mapTitle: "Seguimiento de Vuelo GPS", altTitle: "Altitud (m)", accelTitle: "Aceleración (G)", tempTitle: "Temperatura (°C)", pressTitle: "Presión (hPa)", terminalTitle: "Datos reales (Serial Log)", csvDownload: "Descargar CSV",
         speedTitle: "Velocidad Vertical", phaseTitle: "Fase de vuelo", apogeeTitle: "Apogeo (Max Alt)",
         phaseIdle: "En plataforma de lanzamiento", phaseLaunch: "DESPEGUE 🚀", phaseCoast: "Ascenso por inercia", phaseApogee: "APOGEO ALCANZADO 🎯", phaseDescent: "Descenso con paracaídas 🪂",
         audioEnable: "Activar Audio", audioDisable: "Silenciar Audio",
